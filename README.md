@@ -161,7 +161,7 @@ Least Significant Bit Encoding
 Bitwise Operations
 Pixel-Level Image Processing
 Python Image Manipulation
-👩‍💻 Author
+👩‍💻Author
 
 Somayeh Forouzandeh
 
