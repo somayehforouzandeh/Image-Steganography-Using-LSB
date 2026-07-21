@@ -93,7 +93,7 @@ b_s = (b & 0x03) << 6
 The extracted bits are shifted back to reconstruct the intensity values of the hidden image.
 
 The recovered image is then saved as the extracted secret image.
-
+```
 ## 📊 Results
 
 The complete steganography workflow is illustrated below:
@@ -108,8 +108,10 @@ The workflow demonstrates the complete process:
 
 ```text
 Cover Image → Secret Image → Stego Image → Extracted Secret Image
+
+
 The secret image can be successfully recovered from the stego image using the 2-Bit LSB extraction process.
-```
+
 🛠️ Technologies & Libraries
 Python
 Pillow (PIL) — Image processing and manipulation
