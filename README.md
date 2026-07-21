@@ -94,13 +94,20 @@ The extracted bits are shifted back to reconstruct the intensity values of the h
 
 The recovered image is then saved as the extracted secret image.
 
-📊 Results
+## 📊 Results
+
+The complete steganography workflow is illustrated below:
+
+<p align="center">
+  <img src="Screenshots/steganography-workflow.png"
+       alt="2-Bit LSB Image Steganography Workflow"
+       width="900">
+</p>
 
 The workflow demonstrates the complete process:
 
+```text
 Cover Image → Secret Image → Stego Image → Extracted Secret Image
-
-The secret image can be successfully recovered from the stego image using the 2-Bit LSB extraction process.
 
 🛠️ Technologies & Libraries
 Python
