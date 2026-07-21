@@ -108,6 +108,7 @@ The workflow demonstrates the complete process:
 
 ```text
 Cover Image → Secret Image → Stego Image → Extracted Secret Image
+
 ```
 
 The secret image can be successfully recovered from the stego image using the 2-Bit LSB extraction process.
