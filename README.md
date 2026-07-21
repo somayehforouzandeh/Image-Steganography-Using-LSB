@@ -100,7 +100,6 @@ The extracted bits are shifted back to reconstruct the intensity values of the h
 The recovered image is then saved as the extracted secret image.
 
 📊 Results
-![2-Bit LSB Steganography Workflow](Screenshots/steganography-workflow.png)
 
 The workflow demonstrates the complete process:
 
