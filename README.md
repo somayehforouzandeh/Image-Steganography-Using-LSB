@@ -168,4 +168,4 @@ Somayeh Forouzandeh
 
 Industrial Engineer | Business Intelligence | Data Analytics
 
-⭐ Explore the code and visual workflow to understand how 2-Bit LSB steganography can be implemented using Python
+⭐ Explore the code and visual workflow to understand how 2-Bit LSB steganography can be implemented using Python.
