@@ -57,16 +57,11 @@ Each channel is represented using 8 bits.
 
 In this implementation, the two least significant bits of each cover image channel are replaced with the two most significant bits of the corresponding secret image channel.
 
-Embedding
-Cover Channel:
-XXXXXXXX
+### Embedding
 
-Secret Channel:
-YYXXXXXX
+The two least significant bits of each cover image channel are replaced with the two most significant bits of the corresponding secret image channel.
 
-Stego Channel:
-XXXXXXYY
-
+This process preserves most of the original cover image information while embedding the secret image data into the pixel values.
 The last two bits of each cover channel are cleared, and information from the secret image is inserted using bitwise operations.
 
 🔐 Embedding Process
